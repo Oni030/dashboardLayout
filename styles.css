@@ -58,6 +58,18 @@ body {
 .sidebar {
     background-color: lightskyblue;
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+}
+
+.logo h1 {
+    font-size: 2.4rem;
+    padding: 2.4rem;
+}
+
+.sidebar li {
+    font-size: 2rem;
+    padding: 1rem;
 }
 
 .main {
