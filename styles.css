@@ -159,4 +159,6 @@ li > img {
 /* MAIN SECTION STYLING */
 .main {
     background-color: lightcoral;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
