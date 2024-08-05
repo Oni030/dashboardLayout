@@ -40,10 +40,10 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ROOT STYLING */
 
 :root {
-    --white: ghostwhite;
+    --white: #f5fbff;
     --black: #070708;
-    --light-grey: #becbd4;
-    --dark-grey: #7a8287;
+    --light-grey: #cfdce6;
+    --mid-grey: #aeb9c2;
     --blue: #0099ff;
     --orange: #ff6600;
 }
