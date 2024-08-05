@@ -178,6 +178,15 @@ li > img {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.content-card {
+    padding: 2rem;
+    background: white;
+    border-left: 7px solid orange;
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+}
+
 .anno-section {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
