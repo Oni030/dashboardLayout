@@ -37,6 +37,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* END OF CUSTOM RESET */
 
+
+/* CONTAINER STYLING */
 body {
     width: 100vw;
     height: 100vh;
@@ -50,6 +52,8 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
+
+/* HEADER STYLING */
 .header {
     background-color: lightgreen;
     grid-column: 2 / 3;
@@ -127,6 +131,8 @@ body {
     font-size: 2.4rem;
 }
 
+
+/* SIDEBAR STYLING */
 .sidebar {
     background-color: lightskyblue;
     grid-row: 1 / 3;
@@ -144,6 +150,8 @@ body {
     padding: 1rem;
 }
 
+
+/* MAIN SECTION STYLING */
 .main {
     background-color: lightcoral;
 }
