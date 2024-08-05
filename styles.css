@@ -37,6 +37,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* END OF CUSTOM RESET */
 
+/* ROOT STYLING */
+
+:root {
+    --white: ghostwhite;
+    --black: #070708;
+    --light-grey: #becbd4;
+    --dark-grey: #7a8287;
+    --blue: #0099ff;
+    --orange: #ff6600;
+}
 
 /* CONTAINER STYLING */
 body {
