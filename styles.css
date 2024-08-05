@@ -146,8 +146,13 @@ body {
 }
 
 .sidebar li {
+    display: flex;
     font-size: 2rem;
     padding: 1rem;
+}
+
+li > img {
+    margin: 0 2rem;
 }
 
 
