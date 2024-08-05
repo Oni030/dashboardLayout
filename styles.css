@@ -53,6 +53,78 @@ body {
 .header {
     background-color: lightgreen;
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 4rem;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+}
+
+.header > div > * {
+    margin: 0 1rem;
+}
+
+.icon {
+    border: 1px solid lightgray;
+    width: 3rem;
+    height: 3rem;
+}
+
+.search-bar {
+    border: none;
+    border-radius: 2rem;
+    height: 3rem;
+    width: 64rem;
+    background-color: lightgray;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-icon {
+    border: 1px solid lightgray;
+}
+
+.profile-btn {
+    width: 4rem;
+    height: 4rem;
+}
+
+.profile-icon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    padding-right: 1.5rem;
+}
+.action-btn {
+    width: 9rem;
+    height: 3.4rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: blue;
+    color: white;
+}
+
+.profile-name {
+    font-size: 1.8rem;
+}
+
+.welcome-text {
+    font-size: 1.6rem;
+}
+
+.profile-details {
+    font-size: 2.4rem;
 }
 
 .sidebar {
