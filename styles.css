@@ -40,12 +40,12 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ROOT STYLING */
 
 :root {
-    --white: #f5fbff;
+    --white: #fbfdfe;
     --black: #070708;
-    --light-grey: #cfdce6;
-    --mid-grey: #aeb9c2;
-    --blue: #0099ff;
-    --orange: #ff6600;
+    --light-grey: #dde7ee;
+    --mid-grey: 	#d3d9de;
+    --blue: #1aa3ff;
+    --orange: #ffbf00;
 }
 
 /* CONTAINER STYLING */
