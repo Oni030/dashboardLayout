@@ -275,3 +275,7 @@ body {
 .profile-badge > img {
     margin-right: 1.2rem;
 }
+
+.card-content, .anno-content, .user-name {
+    line-height: 1.6rem;
+}
