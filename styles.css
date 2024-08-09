@@ -210,6 +210,14 @@ body {
     grid-template-rows: auto 1fr;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
+.card-content {
+    font-size: 1.4rem;
+}
+
 .content-card > :last-child {
     display: flex;
     justify-content: flex-end;
