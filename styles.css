@@ -183,6 +183,7 @@ body {
 .main {
     background-color: var(--light-grey);
     display: grid;
+    padding: 4rem;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
@@ -194,7 +195,6 @@ body {
 }
 
 .main-content-container {
-    padding: 4rem;
     overflow: auto;
     display: grid;
     gap: 2rem;
