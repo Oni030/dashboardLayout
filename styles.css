@@ -177,6 +177,7 @@ body {
 
 .sidebar li {
     display: flex;
+    align-items: center;
     font-size: 2rem;
     font-weight: bold;
     padding: 1rem;
