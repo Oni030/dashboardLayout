@@ -235,6 +235,20 @@ body {
     border-radius: 0.7rem;
 }
 
+.announcement {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid var(--mid-grey);
+}
+
+.anno-container > :first-child {
+    padding-top: 0;
+}
+
+.anno-container > :last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
 .anno-title {
     font-size: 1.4rem;
     font-weight: bold;
