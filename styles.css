@@ -235,6 +235,15 @@ body {
     border-radius: 0.7rem;
 }
 
+.anno-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.anno-content {
+    font-size: 1.2rem;
+}
+
 .trending-section {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
