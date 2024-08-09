@@ -228,7 +228,7 @@ body {
 }
 
 .main-content-container {
-    overflow: auto;
+    height: 90%;
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr 1fr;
