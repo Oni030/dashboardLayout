@@ -197,7 +197,7 @@ li > img {
     overflow: auto;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
 }
 
 .content-card {
@@ -206,7 +206,7 @@ li > img {
     border-left: 7px solid var(--orange);
     border-radius: 0.7rem;
     display: grid;
-    grid-template-rows: 5fr 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 .anno-section {
