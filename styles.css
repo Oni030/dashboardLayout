@@ -209,6 +209,12 @@ li > img {
     grid-template-rows: auto 1fr;
 }
 
+.content-card > :last-child {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+}
+
 .anno-section {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
