@@ -229,6 +229,12 @@ body {
     grid-row: 1 / 2;
 }
 
+.anno-container {
+    padding: 3rem;
+    background-color: var(--white);
+    border-radius: 0.7rem;
+}
+
 .trending-section {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
