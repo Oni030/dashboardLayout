@@ -265,6 +265,7 @@ body {
 
 .profile-badge {
     padding-bottom: 1.2rem;
+    display: flex;
 }
 
 .trend-container > :last-child {
