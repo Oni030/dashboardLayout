@@ -282,6 +282,10 @@ body {
     margin-right: 1.2rem;
 }
 
-.card-content, .anno-content, .user-name {
+.card-content {
     line-height: 1.6rem;
+}
+
+.anno-content, .user-name {
+    line-height: 1.4rem;
 }
