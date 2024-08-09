@@ -174,7 +174,7 @@ body {
     padding: 1rem;
 }
 
-li > img {
+.list-item > img {
     margin: 0 2rem;
 }
 
