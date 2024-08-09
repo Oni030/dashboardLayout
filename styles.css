@@ -189,6 +189,12 @@ body {
     gap: 2rem;
 }
 
+.section-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
 .main-content {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
