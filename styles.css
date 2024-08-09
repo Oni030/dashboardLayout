@@ -95,6 +95,10 @@ body {
     margin-right: 1rem;
 }
 
+.search-btn {
+    background-image: url(icons/card-search-outline.svg);
+}
+
 .search-bar {
     border: none;
     border-radius: 2rem;
@@ -106,6 +110,10 @@ body {
 .profile-section {
     display: flex;
     justify-content: center;
+}
+
+.notific-btn {
+    background-image: url(icons/bell-ring-outline.svg);
 }
 
 .profile-icon {
