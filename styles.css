@@ -229,7 +229,7 @@ body {
     grid-row: 1 / 2;
 }
 
-.anno-container {
+.anno-container, .trend-container {
     padding: 3rem;
     background-color: var(--white);
     border-radius: 0.7rem;
@@ -254,11 +254,23 @@ body {
     font-weight: bold;
 }
 
-.anno-content {
+.anno-content, .user-name {
     font-size: 1.2rem;
 }
 
 .trending-section {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+}
+
+.profile-badge {
+    padding-bottom: 1.2rem;
+}
+
+.trend-container > :last-child {
+    padding-bottom: 0;
+}
+
+.profile-badge > img {
+    margin: 0 2rem;
 }
