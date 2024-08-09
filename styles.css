@@ -76,7 +76,7 @@ body {
     padding: 0 4rem;
 }
 
-.header > div {
+.header > * {
     display: flex;
     align-items: center;
     padding-bottom: 1rem;
