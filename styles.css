@@ -110,10 +110,6 @@ body {
     justify-content: center;
 }
 
-.notific-btn {
-    background-image: url(icons/bell-ring-outline.svg);
-}
-
 .profile-icon {
     background-color: transparent;
     border: 1px solid var(--light-grey);
